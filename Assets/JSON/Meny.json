@@ -1,0 +1,68 @@
+[
+    {
+      "category": "Coffee",
+      "items": [
+        { "name": "Espresso", "price": 30 },
+        { "name": "Americano", "price": 35 },
+        { "name": "Cappuccino", "price": 40 },
+        { "name": "Latte", "price": 45 },
+        { "name": "Mocha", "price": 48 },
+        { "name": "Macchiato", "price": 38 },
+        { "name": "Flat White", "price": 42 },
+        { "name": "Iced Coffee", "price": 40 }
+      ]
+    },
+    {
+      "category": "Tea",
+      "items": [
+        { "name": "Earl Grey", "price": 30 },
+        { "name": "English Breakfast", "price": 30 },
+        { "name": "Green Tea", "price": 32 },
+        { "name": "Peppermint Tea", "price": 32 },
+        { "name": "Chai Latte", "price": 42 },
+        { "name": "Matcha Latte", "price": 45 }
+      ]
+    },
+    {
+      "category": "Pastries",
+      "items": [
+        { "name": "Croissant", "price": 25 },
+        { "name": "Pain au Chocolat", "price": 28 },
+        { "name": "Cinnamon Roll", "price": 30 },
+        { "name": "Blueberry Muffin", "price": 27 },
+        { "name": "Brownie", "price": 29 },
+        { "name": "Lemon Tart", "price": 35 }
+      ]
+    },
+    {
+      "category": "Breakfast",
+      "items": [
+        { "name": "Avocado Toast", "price": 65 },
+        { "name": "Yogurt & Granola", "price": 55 },
+        { "name": "Omelette", "price": 70 },
+        { "name": "Pancakes with Syrup", "price": 60 },
+        { "name": "Scrambled Eggs & Toast", "price": 62 }
+      ]
+    },
+    {
+      "category": "Cold Drinks",
+      "items": [
+        { "name": "Fresh Orange Juice", "price": 45 },
+        { "name": "Iced Tea", "price": 35 },
+        { "name": "Smoothie (Mango-Banana)", "price": 50 },
+        { "name": "Lemonade", "price": 38 },
+        { "name": "Bottled Water", "price": 20 },
+        { "name": "Sparkling Water", "price": 25 }
+      ]
+    },
+    {
+      "category": "Sandwiches & Light Meals",
+      "items": [
+        { "name": "Ham & Cheese Sandwich", "price": 55 },
+        { "name": "Grilled Veggie Wrap", "price": 60 },
+        { "name": "Chicken Caesar Wrap", "price": 65 },
+        { "name": "Tuna Melt", "price": 58 },
+        { "name": "Tomato & Mozzarella Panini", "price": 62 }
+      ]
+    }
+  ]
