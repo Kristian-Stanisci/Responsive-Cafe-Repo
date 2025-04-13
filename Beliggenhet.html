@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Assets/Css/Beliggenhet.css">
+</head>
+<body>
+    <header>
+        <h1 id="Cafe-header">
+            <a href="/Assets/Html/index.html">Beliggenhet</a>
+        </h1> 
+        <nav>
+            <ul class="Meny" id="menu">
+                <li><a href="/Assets/Html/Meny.html">Meny</a></li>
+                <li><a href="/Assets/Html/Bestilling.html">Bestilling</a></li>
+                <li><a href="">Profil/Beliggenhet</a></li>
+                <li><a href="/Assets/Html/Midtbyen.html">Midtbyen</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()"> 
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="images-section">
+           <div class="image-container">
+                <img src="/Assets/Img/Kristian.jpg" alt="">
+           </div>
+        </section>
+
+        <section id="Brief-info">
+            <div class="info-container">
+                <div class="info-text">
+                    <h2 style="margin-bottom: 1.5em;">Hei! Jeg er Kristian – og dette er Mormors Kafe</h2>
+                    <p style="margin-bottom: 1em;">
+                        Midt i hjertet av Trondheim finner du vår lille perle – en kafé som er like mye et fristed som et sted for god mat og drikke. Jeg startet denne kafeen med inspirasjon fra mormor, som alltid visste hvordan man skapte varme øyeblikk rundt kjøkkenbordet.
+                    </p>
+                    <hr style="margin: 1em 0; border: 0; border-top: 1px solid #5f5f5f;">
+                    <p style="margin-bottom: 1em;">
+                        Her serverer vi alt fra nystekte boller og rundstykker til dagens suppe og ekte hjemmelaget kaffe – alt laget med kjærlighet og en god dose nostalgi. Du finner oss bare noen minutter unna Solsiden, i et rolig nabolag der tiden går litt saktere.
+                    </p>
+                    <hr style="margin: 1em 0; border: 0; border-top: 1px solid #5f5f5f;">
+                    <p style="margin-bottom: 1em;">
+                        Enten du er innom for å lese, jobbe, møte venner eller bare ta en pause fra hverdagen, håper jeg du vil føle deg som hjemme. Døra står åpen, kaffen er varm – og du er alltid hjertelig velkommen.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="Location-map" style="margin-top: 3em;">
+            <div class="info-container" style="display: flex; flex-wrap: wrap; gap: 2em;">
+                <div class="info-text" style="flex: 1; min-width: 300px;">
+                    <h2 style="margin-bottom: 1em;">Hvor finner du oss i Midtbyen?</h2>
+                    <p style="margin-bottom: 1.5em;">
+                        Mormors Kafe Midtbyen ligger sentralt i Trondheim, bare et lite stykke unna Solsiden.
+                    </p>
+                    <div style="width: 100%; height: 400px; border-radius: 12px; overflow: hidden; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1784.5997251005172!2d10.391359176772298!3d63.43015247685322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466d319ae581504b%3A0xc035eda4f617f1f8!2sTrondheim%20Torg!5e0!3m2!1sno!2sno!4v1744230087380!5m2!1sno!2sno"
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+        
+                <!-- Second location -->
+                <div class="info-text" style="flex: 1; min-width: 300px;">
+                    <h2 style="margin-bottom: 1em;">Hvor finner du oss på Buran?</h2>
+                    <p style="margin-bottom: 1.5em;">
+                        Vi har også en koselig avdeling på Buran, perfekt etter en spasertur i "The suburbs".
+                    </p>
+                    <div style="width: 100%; height: 400px; border-radius: 12px; overflow: hidden; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7137.148182240325!2d10.404550965539322!3d63.4351728112841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466d31b25c7825c5%3A0x39daf502cfe91a5c!2sBuranbanen%20Aktivitetspark!5e0!3m2!1sno!2sno!4v1744230424567!5m2!1sno!2sno" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="SosialeMedier">
+            <div class="SosialeMedier-container">
+            <div class="SosialeMedier-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.snapchat.com/web" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
+            </div>
+            <div class="SosialeMedier-text">
+                <p>Følg oss!</p>
+            </div>
+            </div>
+        </section>
+        <section id="Quote">
+            <div class="Quote-container">
+                <div id="QuoteBox">
+                    <h2>
+                        "Ogni tazza racconta una storia, ogni angolo profuma di casa."
+                    </h2>
+                    <p>
+                        — "Every cup tells a story, every corner smells like home."
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer id="footer-info">
+            <div class="footer-container">
+            <div class="footer-form">
+                <h3>Spørsmål? Gjerne kontakt oss!</h3>
+                <form action="https://api.web3forms.com/submit" method="POST" method="post">
+                    <input type="hidden" name="access_key" value="0ceea8dd-9ba7-4b6d-9066-195002148685">
+                <label for="name">Navn:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="telefon">Telefon:</label>
+                <input type="tel" id="telefon" name="telefon" required>
+                
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="melding">Melding:</label>
+                <textarea id="melding" name="melding" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        </footer>
+    </main>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/Assets/Js/Beliggenhet.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/08c43c1b18.js" crossorigin="anonymous"></script>
+</body>
+</html>

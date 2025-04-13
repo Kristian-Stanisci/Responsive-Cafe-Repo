@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Assets/Css/Buran.css">
+</head>
+<body>
+    <header>
+        <h1 id="Cafe-header">
+            <a href="/Assets/Html/index.html">Mormors Kafe Buran</a>
+        </h1> 
+        <nav>
+            <ul class="Meny" id="menu">
+                <li><a href="/Assets/Html/Meny.html">Meny</a></li>
+                <li><a href="/Assets/Html/Bestilling.html">Bestilling</a></li>
+                <li><a href="/Assets/Html/Beliggenhet.html">Profil/Beliggenhet</a></li>
+                <li><a href="/Assets/Html/Midtbyen.html">Midtbyen</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()"> 
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="images-section">
+           <div class="image-container">
+                <img src="/Assets/Img/BuranBilde2.jpg" alt="">
+                <a id="image-button1" href="/Assets/Html/Beliggenhet.html" class="button">Profil/Beliggenhet</a>
+           </div>
+        </section>
+
+        <section id="Brief-info">
+            <div class="info-container">
+            <div class="info-text">
+                <h2 style="margin-bottom: 1.5em;">Velkommen til Mormors Kafe Buran</h2>
+                <p style="margin-bottom: 1em;">Her handler alt om det enkle og ekte. Nystekte boller, varm kaffe og den gode følelsen av å være et sted der ingen har dårlig tid. Vi prøver ikke å være noe vi ikke er – vi bare elsker god mat og koselige stunder, akkurat som mormor gjorde.</p>
+                <hr style="margin: 1em 0; border: 0; border-top: 1px solid #5f5f5f;">
+                <p style="margin-bottom: 1em;">Her kan du senke skuldrene, ta en slurk kaffe (som selvfølgelig fylles på uten at du trenger å spørre), og nyte en pause fra alt maset der ute.</p>
+                <hr style="margin: 1em 0; border: 0; border-top: 1px solid #5f5f5f;">
+                <p style="margin-bottom: 1em;">Så kom inn, finn deg en plass, og bli en del av vår lille kaféfamilie. Vi lover deg god mat, godt selskap og kanskje til og med en liten livsløgn om at du bare skal ha én bolle. 💛</p>
+            </div>
+            </div>
+        </section>
+        <section id="SosialeMedier">
+            <div class="SosialeMedier-container">
+            <div class="SosialeMedier-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.snapchat.com/web" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
+            </div>
+            <div class="SosialeMedier-text">
+                <p>Følg oss!</p>
+            </div>
+            </div>
+        </section>
+        <section id="Quote">
+            <div class="Quote-container">
+                <div id="QuoteBox">
+                    <h2>
+                        "Ogni tazza racconta una storia, ogni angolo profuma di casa."
+                    </h2>
+                    <p>
+                        — "Every cup tells a story, every corner smells like home."
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="ImageRow">
+            <div class="image-row">
+            <div class="image-item">
+                <img src="../../Assets/Img/Mormor_Bilde.png" alt="Image 1">
+            </div>
+            <div class="image-item">
+                <img src="../../Assets/Img/Bread.jpg" alt="Image 2">
+            </div>
+            <div class="image-item">
+                <img src="../../Assets/Img/Cookies.jpg" alt="Image 3">
+            </div>
+            </div>
+        </section>
+        <footer id="footer-info">
+            <div class="footer-container">
+            <div class="footer-form">
+                <h3>Spørsmål? Gjerne kontakt oss!</h3>
+                <form action="https://api.web3forms.com/submit" method="POST" method="post">
+                    <input type="hidden" name="access_key" value="0ceea8dd-9ba7-4b6d-9066-195002148685">
+                <label for="name">Navn:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="telefon">Telefon:</label>
+                <input type="tel" id="telefon" name="telefon" required>
+                
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="melding">Melding:</label>
+                <textarea id="melding" name="melding" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        </footer>
+    </main>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../../Assets/Js/Buran.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/08c43c1b18.js" crossorigin="anonymous"></script>
+</body>
+</html>

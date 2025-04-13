@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Assets/Css/Meny.css">
+</head>
+<body>
+    <header>
+        <h1 id="Cafe-header">
+            <a href="/Assets/Html/index.html">Meny</a>
+        </h1> 
+        <nav>
+            <ul class="Meny" id="menu">
+                <li><a href="/Assets/Html/Bestilling.html">Bestilling</a></li>
+                <li><a href="/Assets/Html/Beliggenhet.html">Profil/Beliggenhet</a></li>
+                <li><a href="/Assets/Html/Midtbyen.html">Midtbyen</a></li>
+                <li><a href="/Assets/Html/Buran.html">Buran</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()"> 
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="images-section">
+           <div class="image-container">
+                <img src="/Assets/Img/MenyFjell.jpg" alt="">
+           </div>
+        </section>
+
+        
+        <section id="SosialeMedier">
+            <div class="SosialeMedier-container">
+            <div class="SosialeMedier-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.snapchat.com/web" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
+            </div>
+            <div class="SosialeMedier-text">
+                <p>Følg oss!</p>
+                <hr style="margin: 1em 0; border: 0; border-top: 1px solid #5f5f5f;">
+            </div>
+            </div>
+        </section>
+
+        <div id="Meny-container">
+
+        </div>
+
+
+        <section id="Quote">
+            <div class="Quote-container">
+                <div id="QuoteBox">
+                    <h2>
+                        "Un sorso, un ricordo."
+                    </h2>
+                    <p>
+                        — "One sip, one memory."
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <footer id="footer-info">
+            <div class="footer-container">
+            <div class="footer-form">
+                <h3>Spørsmål? Gjerne kontakt oss!</h3>
+                <form action="https://api.web3forms.com/submit" method="POST" method="post">
+                    <input type="hidden" name="access_key" value="0ceea8dd-9ba7-4b6d-9066-195002148685">
+                <label for="name">Navn:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="telefon">Telefon:</label>
+                <input type="tel" id="telefon" name="telefon" required>
+                
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="melding">Melding:</label>
+                <textarea id="melding" name="melding" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        </footer>
+    </main>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/Assets/Js/Meny.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/08c43c1b18.js" crossorigin="anonymous"></script>
+</body>
+</html>
